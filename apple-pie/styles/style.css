@@ -1,8 +1,25 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "-";
+  padding-right: 5px;
+}
 
 #title{
     background-image: url(../images/apple-pie.jpg);
